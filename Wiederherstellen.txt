@@ -1,0 +1,18 @@
+Wiederherstellen
+================
+
+1. Im Backup-Ordner PowerShell öffnen
+
+2. restore.ps1 ausführen:
+
+   .\restore.ps1
+
+   Hinweis: Falls eine Execution Policy Fehlermeldung erscheint, verwenden Sie:
+
+   powershell.exe -ExecutionPolicy Bypass -File ".\restore.ps1"
+
+3. Notes und Edge werden automatisch beendet (falls geöffnet)
+
+4. Alle Dateien werden zurückkopiert
+
+5. Notes UND Edge neu starten
